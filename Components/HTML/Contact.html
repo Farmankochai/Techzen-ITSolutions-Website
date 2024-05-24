@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Contact.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>ContactPage - Farman</title>
+</head>
+
+<body>
+    <!--NAVBAR-->
+
+   
+    </div>
+
+    <div class="navbar">
+        <div class="logo">
+            <h1><a href="Home.html">TECHKEN</a></h1>
+        </div>
+        <div class="nav-toggle" onclick="toggleNav()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Career.html">Careers</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Contact-Home-Page -->
+    <section id="contactPage">
+           <div class="contact">
+            <h1>contact us</h1>
+           </div>
+    </section>
+
+    <!-- Contact Page -->
+
+    <div class="container-contact">
+        <div class="contact-text">
+            <h1>get in touch</h1>
+            <p>Have a question or need assistance? Reach out to us via email, <br>
+                phone, or the contact form below. We're eager to assist you.</p>
+
+                <div class="merge-text">
+            <div class="address-text">
+                <h3>Our Head Office</h3>
+                <p>123 Main Street, <br> Suite 101 Tech City, <br> CA 98765 United States</p>
+            </div>
+            <div class="call-text">
+                <h3>Call Us On</h3>
+                <p>+91 20 1234 5678 <br>
+                    +1 (555) 123-4567</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="form-container">
+            <form class="form">
+              <div class="form-group">
+                <label for="email">Full Name </label>
+                <input required="" name="email" id="email" type="text">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input required="" name="email" id="email" type="text">
+              </div>
+              <div class="form-group">
+                <label for="textarea">Message</label>
+                <textarea required="" cols="50" rows="10" id="textarea" name="textarea">          </textarea>
+              </div>
+              <button type="submit" class="form-submit-btn">Submit</button>
+            </form>
+          </div>
+    </div>
+
+    <!--Embedded Map-->
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6512001.086472251!2d-124.59777371545881!3d37.1601168770165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s123%20Main%20Street%2C%20Suite%20101%20Tech%20City%2C%20CA%2098765%20United%20States%20%20!5e0!3m2!1sen!2sin!4v1716296107427!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+     <!--FOOTER-->
+
+     <footer>
+        
+        <div class="footer-content">
+        <div class="office">
+            <h3>Our Head Office</h3>
+            <p>123 Main Street, <br> Suite 101 Tech City, <br> CA 98765 United States</p>
+        </div>
+
+        <div class="primary-page">
+            <h3>Primary Pages</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="follow-us">
+            <h3>Follow us</h3>
+            <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+        </div>
+        </div>
+    </div>
+
+    <hr>
+    </footer>
+
+
+
+
+
+    <script>
+        function toggleNav() {
+           const navList = document.querySelector('.nav-list');
+           navList.style.display = navList.style.display === 'flex' ? 'none' : 'flex';
+       }
+       
+       
+    
+   </script>
+</body>
+</html>
